@@ -1,0 +1,11 @@
+:root {
+  --uc-urlbar-min-width: auto;
+}
+
+#titlebar {
+  flex: 1;
+}
+
+#nav-bar {
+  width: var(--uc-urlbar-min-width);
+}

@@ -1,0 +1,13 @@
+/* CORRIGE O ALINHAMENTO VERTICAL DOS ÍCONES ESTRELA, LEITURA, ETC (url) */
+
+.urlbar-page-action .urlbar-icon {
+  margin: 0px !important;
+}
+
+.urlbar-page-action,
+#urlbar-go-button,
+.search-go-button {
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}

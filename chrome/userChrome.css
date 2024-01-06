@@ -26,8 +26,6 @@
 
 *==============================================================================================*/
 
-
-
 @import 'includes/cascade-config.css';
 @import 'includes/cascade-colours.css';
 
@@ -37,3 +35,9 @@
 
 @import 'includes/cascade-nav-bar.css';
 @import 'includes/cascade-tabs.css';
+
+@import 'extension/fix-compact-mode.css';
+@import 'extension/selected-tab.css';
+@import 'extension/url-bar.css';
+@import 'extension/navbar-overflow.css';
+@import 'extension/hide-url.css';

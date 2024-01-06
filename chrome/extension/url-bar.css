@@ -1,0 +1,21 @@
+/* DEIXA O FUNDO DA URL TRANSPARENTE */
+
+/* #urlbar-background,
+#searchbar {
+  background: none !important;
+  background-color: unset !important;
+} */
+
+/* #urlbar[focused='true'] > #urlbar-background,
+#urlbar:not([open]) > #urlbar-background {
+  background: none !important;
+} */
+
+#urlbar-background {
+  background: black !important;
+  background-color: black !important;
+}
+#urlbar[focused='false'] > #urlbar-background,
+#urlbar:not([open]) > #urlbar-background {
+  background: none !important;
+}
