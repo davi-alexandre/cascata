@@ -1,0 +1,4 @@
+/* Hides the "Extension (extensionName)" for an extension which overrides the new tab page */
+#identity-box {
+  display: none;
+}
